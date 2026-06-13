@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-srif;
+
+}
+
+:root{
+    /*colors*/
+    --white-color: #fff;
+    --dark-color: #252525;
+    --primary-color: rgb(87, 147, 106);
+    --secondry-color: #1a1919;
+    --white-color: #fff;
+
+    /*fonts size*/
+    --font-size-s: 0.9rem;
+    --font-size-n: 1rem;
+    --font-size-m: 1.12rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 2rem;
+    --font-size-xxl: 2.3rem;
+
+    /*fonts weight*/
+    --font-weight-normal: 400;
+    --font-weight-normal: 500;
+    --font-weight-normal: 600;
+    --font-weight-normal: 700;
+
+    /*border radius*/
+    --border-radius-s: 8px;
+    --border-radius-m: 30px;
+    --border-radius-circle: 50px;
+
+    /*site max with */
+    --site-max-with: 1300px;
+
+
+
+}
+
+html{
+        scroll-behavior: smooth;
+}
+
+body{
+background-color: var(--primary-color);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+img{
+    width: 100%;
+}
+
+.section-content{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: var(--site-max-with);
+}
+
+header{ 
+    position: fixed;
+    z-index: 1000;
+    width: 94%;
+    margin: 50px;
+    border-radius: var(--border-radius-circle);
+    background:  var(--secondry-color);
+}
+
+header .navbar{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-logo .logo-text{
+    color: var(--white-color);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-size-semibold);
+}
+
+.navbar .nav-menu{
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .nav-menu .nav-link{
+    padding: 10px 18px;
+    font-size: var(--font-size-m);
+    border-radius: var(--border-radius-m);
+    transform: 0.3s ease;
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+.navbar .nav-menu .nav-link:hover{
+    background: rgb(53, 89, 65);
+}
+
+main .hero-details{
+    padding-top: 100px;
+    text-align: center;
+}    
+
+.hero-section{
+    padding-bottom: 350px;
+}
+
+ .title{
+    padding-top: 200px;
+    margin-bottom: 20px;
+   font-size: 60px;
+}
+
+.dirImg{
+     width: 300px;
+     padding-bottom: 350px;
+   
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+}
+
+.sp{
+    text-align: center;
+    padding-top: 175px;
+    padding-bottom: 175px;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    row-gap: 200px;
+    column-gap: 270px;
+}
+
+.images img{
+    width: 500px;
+    border-radius: 25px;
+}
+
+.images img:hover{
+    transition: all 300ms linear 0s;
+transform: scale(1.1);
+}
+
+.CSd h1{
+padding-top: 50px;
+text-align: center;
+}
+
+.CYSd h1{
+padding-top: 50px;
+text-align: center;
+}
+
+.ISd h1{
+padding-top: 50px;
+text-align: center;
+}
+
+.AId h1{
+padding-top: 50px;
+text-align: center;
+}
+
+.fu{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.goal{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    row-gap: 200px;
+    column-gap: 270px;
+}
+
+
+.goal img{
+width: 500px;
+border-radius: 25px;
+}
+
+
+.goalText{
+    padding-left: 150px;
+}
+
+.goalText h1{
+    font-size: var(--font-size-xxl);
+}
+
+
+
+.features{
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    row-gap: 200px;
+    column-gap: 100px;
+}
+
+.features img{
+width: 500px;
+border-radius: 25px;
+}
+
+
+.features{
+    padding-left: 150px;
+}
+
+.spsec img{
+    width: 50px;
+}
+
+.spsec h4{
+    margin-left: 100px;
+}
+
+.spsec h1{
+    margin-left: 150px;
+}
+
+.z{
+    padding-left: 100px;
+}
+
+main{
+    padding-bottom: 100px;
+}
+
+.Way h1{
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.Way ol{
+    padding-left: 200px;
+    font-weight: 1000;
+}
+
+.Way{
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+.csec{
+    color: rgb(236, 236, 236);
+    border-radius: 50px;
+    margin: 400px;
+    margin-top: 100px;
+    padding: 100px;
+    background-color: rgb(53, 53, 53);
+}
+
+.csec button{
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: rgb(45, 114, 74);
+    padding: 20px;
+    padding-inline: 80px;
+    margin-left: 27%;
+}
+
+.csec button:hover{
+    transition-delay: 50ms;
+    color: rgb(161, 161, 161);
+    background-color: rgb(39, 99, 64);
+}
+
+.year{
+    border-radius: 20px;
+    background-color: rgb(45, 114, 74);
+    padding: 20px;
+    text-align: center;
+}
+
+.year select{
+    color: #fff;
+    margin-left: 150px;
+    border-radius: 20px;
+    padding-inline: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(53, 53, 53);
+}
+
+.semester{
+    border-radius: 20px;
+    background-color: rgb(45, 114, 74);
+    padding: 20px;
+    text-align: center;
+}
+
+.semester select{
+    color: #fff;
+    margin-left: 150px;
+    margin-right: 40px;
+    border-radius: 20px;
+    padding-inline: 55px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(53, 53, 53);
+}
+
+.csec option{
+    color: aliceblue;
+    background-color: black;
+}
+
+
+.csec h2{
+    padding: 20px;
+    text-align: center;
+}
+
