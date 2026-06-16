@@ -22,63 +22,63 @@ const data = {
       2: "https://drive.google.com/drive/folders/1VqTDGUYal7-t4rDTYUZQheQUqv4Iz0c7"
     }, 
     4: {
-      1: "https://drive.google.com/cs-year2-sem1",
-      2: "https://drive.google.com/cs-year2-sem2"
+      1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s",
+      2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s"
     }
   },
 
   CYS: {
     1: {
-      1: "https://drive.google.com/ee-year1-sem1",
-      2: "https://drive.google.com/ee-year1-sem2"
+      1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s",
+      2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s"
     },
     2: {
-      1: "https://drive.google.com/ee-year2-sem1",
-      2: "https://drive.google.com/ee-year2-sem2"
+      1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s",
+      2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s"
     },
     3: {
-      1: "https://drive.google.com/cs-year2-sem1",
-      2: "https://drive.google.com/cs-year2-sem2"
+      1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s",
+      2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s"
     },
     4: {
-      1: "https://drive.google.com/cs-year2-sem1",
-      2: "https://drive.google.com/cs-year2-sem2"
+      1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s",
+      2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s"
     }
   },
   IS: {
     1: {
-      1: "https://drive.google.com/ee-year1-sem1",
-      2: "https://drive.google.com/ee-year1-sem2"
+      1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s",
+      2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s"
     },
     2: {
-      1: "https://drive.google.com/ee-year2-sem1",
-      2: "https://drive.google.com/ee-year2-sem2"
+      1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s",
+      2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s"
     },
     3: {
-      1: "https://drive.google.com/cs-year2-sem1",
-      2: "https://drive.google.com/cs-year2-sem2"
+      1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s",
+      2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s"
     },
     4: {
-      1: "https://drive.google.com/cs-year2-sem1",
-      2: "https://drive.google.com/cs-year2-sem2"
+      1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s",
+      2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s"
     }
   }, 
   AI: {
     1: {
-      1: "https://google.com",
-      2: "https://google.com"
+      1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s",
+      2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s"
     },
     2: {
-      1: "https://drive.google.com/ee-year2-sem1",
-      2: "https://drive.google.com/ee-year2-sem2"
+      1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s",
+      2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s"
     },
     3: {
-      1: "https://drive.google.com/cs-year2-sem1",
-      2: "https://drive.google.com/cs-year2-sem2"
+      1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s",
+      2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s"
     },
     4: {
-      1: "https://drive.google.com/cs-year2-sem1",
-      2: "https://drive.google.com/cs-year2-sem2"
+      1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s",
+      2: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_HiAkKRLEm5O27jKb2h2cg78tZdfM27Qi8w&s"
     }
   }
 };

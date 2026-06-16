@@ -119,7 +119,7 @@ main .hero-details{
 }    
 
 .hero-section{
-    padding-bottom: 350px;
+    padding-bottom: 150px;
 }
 
  .title{
@@ -128,9 +128,13 @@ main .hero-details{
    font-size: 60px;
 }
 
+.subtitle{
+    font-size: var(--font-size-m);
+}
+
 .dirImg{
      width: 300px;
-     padding-bottom: 350px;
+     padding-bottom: 150px;
    
 }
 
@@ -142,8 +146,8 @@ hr{
 
 .sp{
     text-align: center;
-    padding-top: 175px;
-    padding-bottom: 175px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .images{
     display: grid;
@@ -164,36 +168,44 @@ transform: scale(1.1);
 }
 
 .CSd h1{
-padding-top: 50px;
+padding-top: 30px;
 text-align: center;
 }
 
 .CYSd h1{
-padding-top: 50px;
+padding-top: 30px;
 text-align: center;
 }
 
 .ISd h1{
-padding-top: 50px;
+padding-top: 30px;
 text-align: center;
 }
 
 .AId h1{
-padding-top: 50px;
+padding-top: 30px;
 text-align: center;
 }
 
 .fu{
     margin-left: 150px;
     margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+.spr{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .goal{
-    padding-top: 100px;
-    padding-bottom: 150px;
+    background-color: rgba(100, 168, 122, 0.539);
+    padding-top: 50px;
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 100px;
-    row-gap: 200px;
+    row-gap: 100px;
     column-gap: 270px;
 }
 
@@ -209,18 +221,23 @@ border-radius: 25px;
 }
 
 .goalText h1{
-    font-size: var(--font-size-xxl);
+    font-size: var(--font-size-l);
 }
 
 
 
 .features{
-    padding-bottom: 200px;
+    background-color: rgba(100, 168, 122, 0.592);
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 100px;
-    row-gap: 200px;
+    row-gap: 100px;
     column-gap: 100px;
+}
+
+.featuresText h1{
+    font-size: var(--font-size-l);
 }
 
 .features img{
@@ -233,43 +250,69 @@ border-radius: 25px;
     padding-left: 150px;
 }
 
-.spsec img{
-    width: 50px;
+
+.specializations{
+    background-color: rgba(100, 168, 122, 0.289);
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 
-.spsec h4{
-    margin-left: 100px;
+
+.specializations h1{
+    font-size: var(--font-size-l);
+    margin-left: 20px;
 }
 
-.spsec h1{
-    margin-left: 150px;
+
+.spec-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    column-gap: 270px;
+    padding-top: 50px;
 }
 
-.z{
-    padding-left: 100px;
+.spec-item {
+    text-align: center;
+}
+
+.spec-item img {
+    width: 120px;
+    transition: 0.3s;
+}
+
+.spec-item img:hover {
+    transform: scale(1.1);
+}
+
+.spec-item h4 {
+    font-size: var(--font-size-m);
+    margin-top: 20px;
 }
 
 main{
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 
-.Way h1{
-    margin-left: 150px;
-    margin-bottom: 20px;
+.way-box {
+    margin: 100px 150px;
+    padding: 50px;
+    background-color: rgba(100, 168, 122, 0.602);
+    border-radius: 25px;
 }
 
-.Way ol{
-    padding-left: 200px;
-    font-weight: 1000;
+.way-box h1 {
+    font-size: var(--font-size-l);
+    margin-bottom: 30px;
 }
 
-.Way{
-    padding-bottom: 100px;
+.way-box ol {
+    font-weight: 700;
+    padding-left: 40px;
+    line-height: 2;
+    font-size: var(--font-size-m);
 }
-
-
-
-
 
 
 .csec{
@@ -381,6 +424,49 @@ body {
 
 /* ===== TABLET ===== */
 @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar .nav-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .navbar .nav-menu .nav-link {
+    padding: 8px 14px;
+    font-size: 14px;
+    }
+
+   .spec-grid {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .spec-item img {
+        width: 90px;
+    }
+
+    .way-box {
+        margin: 20px;
+        padding: 25px;
+    }
+
+    .way-box ol {
+        padding-left: 20px;
+        font-size: 14px;
+    }
+
+.z {
+    padding-left: 0;
+}
+
+    .sp {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
 
     header {
         width: 100%;
