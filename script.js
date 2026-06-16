@@ -10,16 +10,16 @@ document.addEventListener("DOMContentLoaded", () => {
 const data = {
   CS: {
     1: {
-      1: "https://chatgpt.com/c/6a2c1ed3-fba4-83eb-a6c0-b75ea625873f",
-      2: "https://gemini.google.com/app"
+      1: "https://drive.google.com/drive/folders/1rCIfCkcLH9TbI1gu16m9hjCJBK64Y5ee",
+      2: "https://drive.google.com/drive/folders/1rCIfCkcLH9TbI1gu16m9hjCJBK64Y5ee"
     },
     2: {
-      1: "https://drive.google.com/cs-year2-sem1",
-      2: "https://drive.google.com/cs-year2-sem2"
+      1: "https://drive.google.com/drive/folders/1-3w3yEgI7NPogdJeaxrwNUpiluBeKJhE",
+      2: "https://drive.google.com/drive/folders/1-3w3yEgI7NPogdJeaxrwNUpiluBeKJhE"
     },
     3: {
-      1: "https://drive.google.com/cs-year2-sem1",
-      2: "https://drive.google.com/cs-year2-sem2"
+      1: "https://drive.google.com/drive/folders/1VqTDGUYal7-t4rDTYUZQheQUqv4Iz0c7",
+      2: "https://drive.google.com/drive/folders/1VqTDGUYal7-t4rDTYUZQheQUqv4Iz0c7"
     }, 
     4: {
       1: "https://drive.google.com/cs-year2-sem1",

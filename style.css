@@ -342,3 +342,124 @@ main{
     text-align: center;
 }
 
+
+
+
+
+
+/* =========================
+   FIX RESPONSIVE ONLY
+========================= */
+
+/* الصور */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* منع أي عنصر يطلع خارج الشاشة */
+body {
+    overflow-x: hidden;
+}
+
+/* ===== HERO GRID ===== */
+@media (max-width: 1024px) {
+    .images {
+        column-gap: 80px;
+        row-gap: 100px;
+    }
+
+    .images img {
+        width: 350px;
+    }
+
+    .goal img,
+    .features img {
+        width: 350px;
+    }
+}
+
+/* ===== TABLET ===== */
+@media (max-width: 768px) {
+
+    header {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .title {
+        font-size: 40px;
+        padding-top: 120px;
+    }
+
+    .images {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 60px;
+    }
+
+    .images img {
+        width: 100%;
+    }
+
+    .goal,
+    .features {
+        grid-template-columns: 1fr;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .goal img,
+    .features img {
+        width: 100%;
+    }
+
+    .goalText {
+        padding-left: 0;
+    }
+
+    .spsec h4 {
+        margin-left: 20px;
+    }
+
+    .Way ol {
+        padding-left: 40px;
+    }
+
+    .csec {
+        margin: 20px;
+        padding: 30px;
+    }
+
+    .year select,
+    .semester select {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .csec button {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+/* ===== MOBILE SMALL ===== */
+@media (max-width: 480px) {
+
+    .title {
+        font-size: 28px;
+    }
+
+    .dirImg {
+        width: 200px;
+    }
+
+    .images img {
+        width: 100%;
+    }
+
+    .csec {
+        padding: 20px;
+    }
+}
